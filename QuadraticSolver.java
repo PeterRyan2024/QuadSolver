@@ -1,16 +1,15 @@
+import java.util.*;
+
 public class QuadraticSolver{
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         System.out.println("Welcome to the Quadratic Solver!");
-        System.out.println("Wait, how did you get in here...");
-        System.out.println("Both my doors are locked");
-        System.out.println("WHO ARE YOU!?!?");
-        System.out.println(".");
-        System.out.println("..");
-        System.out.println("...");
-        System.out.println("I can't take this today");
-        System.out.println("I'm calling the cops!!!");
-        System.out.println("WAIT");
-        System.out.println("What's that you're holding?");
-        System.out.println("IS THAT A....");
+        System.out.println("Please put in a, b, and c");
+        double a = input.nextDouble();
+        double b = input.nextDouble();  
+        double c = input.nextDouble();
+        double answer1 = ((-1*b) + Math.sqrt((b*b) - ((4*a*c))))/(2*a);
+        System.out.print("Your answers are: " + answer1);
+
     }
 }
