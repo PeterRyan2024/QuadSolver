@@ -3,7 +3,7 @@ import java.util.*;
 public class QuadraticSolver{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the Quadratic Solver!");
+        System.out.println("Let's goooo quadratic equation!!!");
         System.out.println("Please put in a, b, and c");
         double a = input.nextDouble();
         double b = input.nextDouble();  
