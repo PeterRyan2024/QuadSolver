@@ -10,6 +10,7 @@ public class QuadraticSolver{
         double c = input.nextDouble();
         double answer1 = ((-1*b) + Math.sqrt((b*b) - ((4*a*c))))/(2*a);
         System.out.print("Your answers are: " + answer1);
+        System.out.println("Yay");
 
     }
 }
